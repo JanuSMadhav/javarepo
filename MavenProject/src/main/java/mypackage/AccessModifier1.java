@@ -2,6 +2,7 @@ package mypackage;
 
 public class AccessModifier1 {
 	private int data = 90;
+	public char[] msg;
 	private void msg() {
 		System.out.println("Hello");
 	}
