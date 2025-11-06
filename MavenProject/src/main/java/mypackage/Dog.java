@@ -4,9 +4,8 @@ package mypackage;
 	public void test() {
 		System.out.println("Interface method");
 	}
-	//public static void main(String args[]) {
-	//	Dog d = new Dog();
-	//	d.test();
-	//}
-
+	public static void main(String args[]) {
+	Dog d = new Dog();
+	d.test();
+	}
 }
